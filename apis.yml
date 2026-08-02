@@ -1,8 +1,17 @@
 aid: until-labs
 name: Until Labs
-description: 'Until Labs is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Until Labs (branded "until") is a San Francisco deep-tech biotechnology
+  company developing reversible cryopreservation technology for human donor organs.
+  Its mission is to build a "pause button for biology" by safely vitrifying organs
+  at ultra-low temperatures without ice formation, then rewarming them for transplant
+  — extending the viability window for donor organs and improving transplant outcomes.
+  The company builds perfusion hardware, cryoprotective agents, cooling and rewarming
+  infrastructure, and organ-health assessment methods, working toward whole-body
+  medical hibernation. Co-founded by Laura Deming and Hunter Davis, Until has raised
+  over $100M including a $58M Series A (September 2025) led by Founders Fund with
+  Lux Capital participating. As a wet-lab hardware and life-sciences company, Until
+  publishes no public developer API, SDK, or software platform. This profile was
+  surfaced as a Lux Capital portfolio company and enriched from public sources.'
 url: https://raw.githubusercontent.com/api-evangelist/until-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,54 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Deep Tech
+- Biotechnology
+- Cryopreservation
+- Organ Transplant
+- Life Sciences
+- Medical Hardware
+image: https://www.untillabs.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/until-labs-domain-security.yml
+- type: Website
+  url: https://www.untillabs.com/
+- type: Blog
+  url: https://www.untillabs.com/blog
+- type: Roadmap
+  url: https://www.untillabs.com/roadmap
+- type: About
+  url: https://www.untillabs.com/science-technology
+- type: Careers
+  url: https://jobs.lever.co/until
+- type: LinkedIn
+  url: https://www.linkedin.com/company/untillabs
+- type: Twitter
+  url: https://x.com/untillabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
